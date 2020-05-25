@@ -1,5 +1,19 @@
-
 Proxmox TAP
+
+Full instructions below with added information. 
+https://beyondtheory.io/blog/virtualization/security-onion-proxmox/
+
+Resources: https://vext.info/2018/09/03/cheat-sheet-port-mirroring-ids-data-into-a-proxmox-vm.html
+
+Resources: http://docs.openvswitch.org/en/latest/faq/configuration/
+
+apt install openvswitch
+
+ip -brie -a
+
+Add interface TAP/ SPAN
+
+Update script
 
 #!/bin/dash
 
