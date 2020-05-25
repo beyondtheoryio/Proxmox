@@ -1,0 +1,5 @@
+# Proxmox
+Proxmox stuffz
+
+After install:
+apt install sudo && sudo apt install ifupdown2 && sudo apt install vim && sudo mv /etc/apt/sources.list.d/pve-enterprise.list /etc/apt/sources.list.d/pve-enterprise.list.disabled  && sudo echo "deb http://download.proxmox.com/debian/pve buster pve-no-subscription" > /etc/apt/sources.list.d/pve-no-subscription.list  && sudo apt update && sudo pveupgrade && sudo mkdir /usr/share/custom && sudo echo '#!/usr/bin/env bash' > /usr/share/custom/apply.sh && sudo chmod a+x /usr/share/custom/apply.sh && sudo echo 'DPkg::Post-Invoke { "/usr/share/custom/apply.sh"; };' > /etc/apt/apt.conf.d/90custom && sudo echo 'mv /etc/apt/sources.list.d/pve-enterprise.list /etc/apt/sources.list.d/pve-enterprise.list.disabled' >> /usr/share/custom/apply.sh && sudo echo 'echo "deb http://download.proxmox.com/debian/pve buster pve-no-subscription" > /etc/apt/sources.list.d/pve-no-subscription.list' >> /usr/share/custom/apply.sh
