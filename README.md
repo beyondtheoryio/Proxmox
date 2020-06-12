@@ -150,6 +150,4 @@ https://YOUR_Security_Onion_IP
 
 This is the landing page. From this page, you can begin to explore Security Onion and what it has to offer. Feel free to start with Kibana to view your Overview dashboard. You also have an instance of Cyber Chef and Squert at your fingertips.
 
-https:hsecurityonion.net https:hsecurityonionsolutions.com 
-
 Feel free to explore Security Onion’s Kibana dashboard. If you encounter any issues, refer to the previously linked docs hyperlink at the top. You can also open a terminal on the system and begin each command with “sudo so-<tab>” in order to discover what’s under the hood and commands available to you. 
