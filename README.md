@@ -1,12 +1,5 @@
 # Proxmox
 
-:
-Today, I’d like to introduce a new series, where I talk about various topics. This series will be titled, “What the Hack?!”.
-
-In today’s WTH, we discuss installation, configuration, and monitoring with Security Onion . This is a basic installation talk that ends in seeing your traffic. In another discussion, we’ll look at that traffic and break it down.
-
-First, we’ll talk about what Security Onion is, in my own words.
-
 Security Onion is an analyst tool, targeted at providing real-time, or, afterthought analysis of network indicators that could lead to compromise, infection, beaconing of rouge applications, and detection of malicious tools, or activities.
 
 Obtain your copy of Security Onion here:
